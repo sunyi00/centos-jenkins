@@ -11,5 +11,7 @@ RUN localedef -c -f UTF-8 -i en_US en_US.UTF-8 \
     && yum install -y jenkins \
     && mkdir -p /jenkins
 
+ENV LANG en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
 EXPOSE 8080
 VOLUME /jenkins
