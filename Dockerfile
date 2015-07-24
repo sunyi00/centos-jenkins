@@ -1,4 +1,4 @@
-FROM sunyi00/centos-java:latest
+FROM sunyi00/centos-java:lain
 
 ENV JENKINS_HOME /jenkins
 
