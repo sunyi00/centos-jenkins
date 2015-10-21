@@ -4,7 +4,7 @@ ENV JENKINS_HOME /jenkins
 
 RUN wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo \
     && rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key \
-    && yum -y install jenkins-1.609.2-1.1 \
+    && yum -y install jenkins-1.625.1-1.1 \
         golang \
         libevent-devel \
         python-backports-lzma \
